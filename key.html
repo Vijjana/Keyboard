@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>keyboard</title>
+        <style>
+            body{
+                background-color:#4141a5 ;
+            }
+            #container{
+                display:grid;
+                grid-template-columns:repeat(14,1fr);
+                grid-template-rows:repeat(5,50px);
+                background-color:rgb(27, 26, 26);
+                margin-top:120px;
+                padding:45px;
+                border-radius:46px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            }
+            #container > div{
+                color:#4141a5;
+                background-color:rgb(17, 15, 15);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            #container > div:hover{
+                background-color:antiquewhite;
+                cursor:pointer;
+            }
+            #back{
+                grid-column: 14 /span 2;
+            }
+            #cap{
+                grid-column:1 /span 2;
+            }
+            #enter{
+                grid-column:14 /span 2;
+            }
+            #shift{
+                grid-column:1 /span 2;
+            }
+             #space{
+                grid-column:6 /span 3;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id = "container">
+            <div>~</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>0</div>
+            <div>-</div>
+            <div>+</div>
+            <div id = "back">Backspace</div>
+            <div>tab</div>
+            <div>Q</div>
+            <div>W</div>
+            <div>E</div>
+            <div>R</div>
+            <div>T</div>
+            <div>Y</div>
+            <div>U</div>
+            <div>I</div>
+            <div>O</div>
+            <div>P</div>
+            <div>[</div>
+            <div>]</div>
+            <div>\</div>
+            <div id = "cap">CapsLock</div>
+            <div>A</div>
+            <div>S</div>
+            <div>D</div>
+            <div>F</div>
+            <div>G</div>
+            <div>H</div>
+            <div>J</div>
+            <div>K</div>
+            <div>L</div>
+            <div>;</div>
+            <div>'</div>
+            <div id = "enter">Enter</div>
+            <div id = "shift">Shift</div>
+            <div>Z</div>
+            <div>X</div>
+            <div>C</div>
+            <div>V</div>
+            <div>B</div>
+            <div>N</div>
+            <div>M</div>
+            <div><</div>
+            <div>></div>
+            <div>/</div>
+            <div  id = "shift">Shift</div>
+            <div>Fn</div>
+            <div>ctrl</div>
+            <div>🪟</div>
+            <div id = "space">SpaceBar</div>
+            <div>Alt</div>
+            <div>prtsc</div>
+            <div>ctrl</div>
+            <div>➡️</div>
+            <div>⬆️</div>
+            
+
+        </div>
+    </body>
+
+</html>
